@@ -86,7 +86,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/dilip7868/dilip7868/output/dist/github-snake.svg?v=1" alt="Contribution snake animation" width="100%">
+<img src="https://raw.githubusercontent.com/dilip7868/dilip7868/output/github-snake.svg?v=1" alt="Contribution snake animation" width="100%">
 </div>
 
 ---
