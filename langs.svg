@@ -1,0 +1,51 @@
+<svg width="480" height="260" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0b2e"/>
+      <stop offset="100%" stop-color="#2d1155"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5fa2">
+        <animate attributeName="stop-color" values="#ff5fa2;#a855f7;#ff8fc7;#ff5fa2" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7;#ff8fc7;#a855f7;#a855f7" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans { font-family: -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+      .mono { font-family: 'SFMono-Regular',Consolas,Menlo,monospace; }
+      .row { opacity:0; animation: rowIn .6s ease-out forwards; }
+      @keyframes rowIn { from {opacity:0; transform:translateX(-10px);} to {opacity:1; transform:translateX(0);} }
+      .pop { opacity:0; transform:scale(.7); transform-box:fill-box; transform-origin:center;
+        animation: popIn .5s cubic-bezier(.2,1.5,.4,1) forwards; }
+      @keyframes popIn { to {opacity:1; transform:scale(1);} }
+      .shine { animation: sweep 3s linear infinite; }
+      @keyframes sweep { from { transform:translateX(-120%);} to { transform:translateX(220%);} }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="478" height="258" rx="14" fill="url(#bg)" stroke="#a855f7" stroke-opacity="0.5"/><rect x="1" y="1" width="478" height="3" rx="1.5" fill="url(#accent)"/><text x="20" y="34" class="sans" font-size="16" font-weight="700" fill="#f3e8ff">Most Used Languages</text>
+
+<g transform="translate(20,90)">
+<rect x="0" y="0" width="440" height="14" rx="7" fill="#ffffff" fill-opacity="0.06"/>
+<rect class="pop" style="animation-delay:0.30s" x="0.0" y="0" width="149.6" height="14" fill="#f1e05a"/>
+<rect class="pop" style="animation-delay:0.38s" x="149.6" y="0" width="88.0" height="14" fill="#3178c6"/>
+<rect class="pop" style="animation-delay:0.46s" x="237.6" y="0" width="79.2" height="14" fill="#3572A5"/>
+<rect class="pop" style="animation-delay:0.54s" x="316.8" y="0" width="52.8" height="14" fill="#e34c26"/>
+<rect class="pop" style="animation-delay:0.62s" x="369.6" y="0" width="39.6" height="14" fill="#563d7c"/>
+<rect class="pop" style="animation-delay:0.70s" x="409.2" y="0" width="30.8" height="14" fill="#a855f7"/>
+<rect x="0" y="0" width="440" height="14" rx="7" fill="none" stroke="#1c0e33" stroke-width="2"/>
+</g>
+<g class="row sans" style="animation-delay:0.60s" transform="translate(20.0,132)"><circle cx="6" cy="-4" r="6" fill="#f1e05a"/><text x="18" y="0" font-size="13" fill="#f3e8ff">JavaScript</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">34%</text></g>
+<g class="row sans" style="animation-delay:0.70s" transform="translate(240.0,132)"><circle cx="6" cy="-4" r="6" fill="#3178c6"/><text x="18" y="0" font-size="13" fill="#f3e8ff">TypeScript</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">20%</text></g>
+<g class="row sans" style="animation-delay:0.80s" transform="translate(20.0,162)"><circle cx="6" cy="-4" r="6" fill="#3572A5"/><text x="18" y="0" font-size="13" fill="#f3e8ff">Python</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">18%</text></g>
+<g class="row sans" style="animation-delay:0.90s" transform="translate(240.0,162)"><circle cx="6" cy="-4" r="6" fill="#e34c26"/><text x="18" y="0" font-size="13" fill="#f3e8ff">HTML</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">12%</text></g>
+<g class="row sans" style="animation-delay:1.00s" transform="translate(20.0,192)"><circle cx="6" cy="-4" r="6" fill="#563d7c"/><text x="18" y="0" font-size="13" fill="#f3e8ff">CSS</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">9%</text></g>
+<g class="row sans" style="animation-delay:1.10s" transform="translate(240.0,192)"><circle cx="6" cy="-4" r="6" fill="#a855f7"/><text x="18" y="0" font-size="13" fill="#f3e8ff">Other</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">7%</text></g>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="480" height="260" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0b2e"/>
+      <stop offset="100%" stop-color="#2d1155"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5fa2">
+        <animate attributeName="stop-color" values="#ff5fa2;#a855f7;#ff8fc7;#ff5fa2" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7;#ff8fc7;#a855f7;#a855f7" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans { font-family: -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+      .mono { font-family: 'SFMono-Regular',Consolas,Menlo,monospace; }
+      .row { opacity:0; animation: rowIn .6s ease-out forwards; }
+      @keyframes rowIn { from {opacity:0; transform:translateX(-10px);} to {opacity:1; transform:translateX(0);} }
+      .pop { opacity:0; transform:scale(.7); transform-box:fill-box; transform-origin:center;
+        animation: popIn .5s cubic-bezier(.2,1.5,.4,1) forwards; }
+      @keyframes popIn { to {opacity:1; transform:scale(1);} }
+      .shine { animation: sweep 3s linear infinite; }
+      @keyframes sweep { from { transform:translateX(-120%);} to { transform:translateX(220%);} }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="478" height="258" rx="14" fill="url(#bg)" stroke="#a855f7" stroke-opacity="0.5"/><rect x="1" y="1" width="478" height="3" rx="1.5" fill="url(#accent)"/><text x="20" y="34" class="sans" font-size="16" font-weight="700" fill="#f3e8ff">GitHub Stats — dilip7868</text>
+  <g transform="translate(96,150)">
+    <circle r="58" fill="none" stroke="#a855f7" stroke-opacity="0.18" stroke-width="12"/>
+    <circle r="58" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round"
+      transform="rotate(-90)" stroke-dasharray="364.4" filter="url(#glow)"
+      stroke-dashoffset="364.4">
+      <animate attributeName="stroke-dashoffset" from="364.4" to="138.5"
+        dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 1 0.3 1"/>
+    </circle>
+    <text x="0" y="-2" text-anchor="middle" class="sans" font-size="22" font-weight="800" fill="#f3e8ff">Top 62%</text>
+    <text x="0" y="20" text-anchor="middle" class="sans" font-size="11" fill="#c4b5fd">profile rank</text>
+  </g>
+  <g class="row sans" style="animation-delay:0.50s" transform="translate(190,92)"><text x="0" y="0" font-size="13.5" fill="#c4b5fd">⭐ Stars</text><text x="270" y="0" text-anchor="end" font-size="13.5" font-weight="700" fill="#f3e8ff">24</text><rect x="0" y="8" width="270" height="1" fill="#a855f7" opacity="0.25"/></g><g class="row sans" style="animation-delay:0.62s" transform="translate(190,122)"><text x="0" y="0" font-size="13.5" fill="#c4b5fd">📝 Commits (this yr)</text><text x="270" y="0" text-anchor="end" font-size="13.5" font-weight="700" fill="#f3e8ff">480</text><rect x="0" y="8" width="270" height="1" fill="#a855f7" opacity="0.25"/></g><g class="row sans" style="animation-delay:0.74s" transform="translate(190,152)"><text x="0" y="0" font-size="13.5" fill="#c4b5fd">🔀 Pull Requests</text><text x="270" y="0" text-anchor="end" font-size="13.5" font-weight="700" fill="#f3e8ff">18</text><rect x="0" y="8" width="270" height="1" fill="#a855f7" opacity="0.25"/></g><g class="row sans" style="animation-delay:0.86s" transform="translate(190,182)"><text x="0" y="0" font-size="13.5" fill="#c4b5fd">🐛 Issues</text><text x="270" y="0" text-anchor="end" font-size="13.5" font-weight="700" fill="#f3e8ff">9</text><rect x="0" y="8" width="270" height="1" fill="#a855f7" opacity="0.25"/></g><g class="row sans" style="animation-delay:0.98s" transform="translate(190,212)"><text x="0" y="0" font-size="13.5" fill="#c4b5fd">🤝 Contributed to</text><text x="270" y="0" text-anchor="end" font-size="13.5" font-weight="700" fill="#f3e8ff">12</text><rect x="0" y="8" width="270" height="1" fill="#a855f7" opacity="0.25"/></g>
+</svg>
