@@ -34,18 +34,14 @@
 
 <g transform="translate(20,90)">
 <rect x="0" y="0" width="440" height="14" rx="7" fill="#ffffff" fill-opacity="0.06"/>
-<rect class="pop" style="animation-delay:0.30s" x="0.0" y="0" width="149.6" height="14" fill="#f1e05a"/>
-<rect class="pop" style="animation-delay:0.38s" x="149.6" y="0" width="88.0" height="14" fill="#3178c6"/>
-<rect class="pop" style="animation-delay:0.46s" x="237.6" y="0" width="79.2" height="14" fill="#3572A5"/>
-<rect class="pop" style="animation-delay:0.54s" x="316.8" y="0" width="52.8" height="14" fill="#e34c26"/>
-<rect class="pop" style="animation-delay:0.62s" x="369.6" y="0" width="39.6" height="14" fill="#563d7c"/>
-<rect class="pop" style="animation-delay:0.70s" x="409.2" y="0" width="30.8" height="14" fill="#a855f7"/>
+<rect class="pop" style="animation-delay:0.30s" x="0.0" y="0" width="246.4" height="14" fill="#3572A5"/>
+<rect class="pop" style="animation-delay:0.38s" x="246.4" y="0" width="105.6" height="14" fill="#f1e05a"/>
+<rect class="pop" style="animation-delay:0.46s" x="352.0" y="0" width="52.8" height="14" fill="#e34c26"/>
+<rect class="pop" style="animation-delay:0.54s" x="404.8" y="0" width="35.2" height="14" fill="#563d7c"/>
 <rect x="0" y="0" width="440" height="14" rx="7" fill="none" stroke="#1c0e33" stroke-width="2"/>
 </g>
-<g class="row sans" style="animation-delay:0.60s" transform="translate(20.0,132)"><circle cx="6" cy="-4" r="6" fill="#f1e05a"/><text x="18" y="0" font-size="13" fill="#f3e8ff">JavaScript</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">34%</text></g>
-<g class="row sans" style="animation-delay:0.70s" transform="translate(240.0,132)"><circle cx="6" cy="-4" r="6" fill="#3178c6"/><text x="18" y="0" font-size="13" fill="#f3e8ff">TypeScript</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">20%</text></g>
-<g class="row sans" style="animation-delay:0.80s" transform="translate(20.0,162)"><circle cx="6" cy="-4" r="6" fill="#3572A5"/><text x="18" y="0" font-size="13" fill="#f3e8ff">Python</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">18%</text></g>
-<g class="row sans" style="animation-delay:0.90s" transform="translate(240.0,162)"><circle cx="6" cy="-4" r="6" fill="#e34c26"/><text x="18" y="0" font-size="13" fill="#f3e8ff">HTML</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">12%</text></g>
-<g class="row sans" style="animation-delay:1.00s" transform="translate(20.0,192)"><circle cx="6" cy="-4" r="6" fill="#563d7c"/><text x="18" y="0" font-size="13" fill="#f3e8ff">CSS</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">9%</text></g>
-<g class="row sans" style="animation-delay:1.10s" transform="translate(240.0,192)"><circle cx="6" cy="-4" r="6" fill="#a855f7"/><text x="18" y="0" font-size="13" fill="#f3e8ff">Other</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">7%</text></g>
+<g class="row sans" style="animation-delay:0.60s" transform="translate(20.0,135)"><circle cx="6" cy="-4" r="6" fill="#3572A5"/><text x="18" y="0" font-size="13" fill="#f3e8ff">Python / AI</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">56%</text></g>
+<g class="row sans" style="animation-delay:0.70s" transform="translate(240.0,135)"><circle cx="6" cy="-4" r="6" fill="#f1e05a"/><text x="18" y="0" font-size="13" fill="#f3e8ff">JavaScript</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">24%</text></g>
+<g class="row sans" style="animation-delay:0.80s" transform="translate(20.0,175)"><circle cx="6" cy="-4" r="6" fill="#e34c26"/><text x="18" y="0" font-size="13" fill="#f3e8ff">HTML5</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">12%</text></g>
+<g class="row sans" style="animation-delay:0.90s" transform="translate(240.0,175)"><circle cx="6" cy="-4" r="6" fill="#563d7c"/><text x="18" y="0" font-size="13" fill="#f3e8ff">CSS3 &amp; Others</text><text x="204" y="0" text-anchor="end" font-size="12" fill="#c4b5fd">8%</text></g>
 </svg>

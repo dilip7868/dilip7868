@@ -20,11 +20,11 @@
 
 ### 👋 About Me
 
-- 🚀 Full‑Stack Developer building end‑to‑end products with the **MERN stack** + **Next.js**
+- 🚀 Full‑Stack Developer building end‑to‑end products with **JavaScript**, **Python**, and modern web architectures
 - 🤖 Exploring **AI & Machine Learning** — from deep learning models to real‑time voice agents
-- 🌐 Freelancing on web & AI projects, one repo at a time
-- 📊 Data Science enthusiast, always turning messy data into something useful
-- 💬 Ask me about: React/Next.js architecture, REST APIs, or getting started with AI‑assisted apps
+- 🌐 Freelancing on web & AI projects, turning ideas into scalable applications
+- 📊 Data Science enthusiast, always turning complex data into actionable intelligence
+- 💬 Ask me about: AI integration, Web applications, REST APIs, or Machine Learning workflows
 - ⚡ Fun fact: **Code. Coffee. Repeat.**
 
 ---
@@ -34,15 +34,12 @@
 <div align="center">
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-1a0b2e?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-1a0b2e?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-1a0b2e?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-1a0b2e?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-1a0b2e?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-1a0b2e?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-1a0b2e?style=for-the-badge&logo=mongodb&logoColor=47A248)
 ![Python](https://img.shields.io/badge/Python-1a0b2e?style=for-the-badge&logo=python&logoColor=3776AB)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-1a0b2e?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-1a0b2e?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
+![React](https://img.shields.io/badge/React-1a0b2e?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-1a0b2e?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+![HTML5](https://img.shields.io/badge/HTML5-1a0b2e?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-1a0b2e?style=for-the-badge&logo=css3&logoColor=1572B6)
 ![Git](https://img.shields.io/badge/Git-1a0b2e?style=for-the-badge&logo=git&logoColor=F05032)
 
 </div>
@@ -53,14 +50,10 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **[ShopWave](https://github.com/dilip7868/shopwave)** | Full‑featured vanilla‑JS e‑commerce app with a seeded catalog and a frontend admin dashboard | JavaScript, HTML, CSS |
-| **[Jarvis AI](https://github.com/dilip7868/jarvis-ai)** | Real‑time voice AI assistant built with LiveKit | Python, LiveKit, AI |
-| **[Deep Learning MPG Predictor](https://github.com/dilip7868/mpg-predictor)** | Neural‑network model predicting vehicle fuel efficiency | Python, TensorFlow |
-| **[GiftNest](https://github.com/dilip7868/giftnest)** | JWT‑authenticated full‑stack gift shop with an admin dashboard | Next.js, JWT |
-| **[AI Surveillance Drone](https://github.com/dilip7868/ai-surveillance-drone)** | Autonomous surveillance system with camera auto‑detection & fallback demo mode | Python, OpenCV, TensorFlow |
-| **[Portfolio — "Signal"](https://github.com/dilip7868/portfolio)** | Dark glassmorphism portfolio site with Framer Motion animations | Next.js 14, Framer Motion |
-
-> ℹ️ Repo links above are placeholders — point each one at your actual repository URL.
+| **[AI-Leads](https://github.com/dilip7868/AI-Leads)** ([Live Demo](https://ai-leads-chi.vercel.app)) | AI‑powered lead generation & marketing intelligence platform with prospecting tools | JavaScript, Python, REST APIs |
+| **[Deep Learning MPG Predictor](https://github.com/dilip7868/deeplearning-mpg-predict)** | Deep neural network regression model for predicting vehicle fuel efficiency | Python, TensorFlow/Keras, Jupyter Notebook |
+| **[Jarvis AI](https://github.com/dilip7868/jarvis)** | Voice AI assistant and automated task orchestration agent | Python, Speech Recognition, AI |
+| **[Interactive Web Experience](https://github.com/dilip7868/sorry)** ([Live Demo](https://sorry-three-beta.vercel.app)) | Responsive creative frontend web application with rich interactive animations | HTML5, CSS3, JavaScript |
 
 ---
 
@@ -74,8 +67,6 @@
 <div align="center">
 <img src="assets/trophies.svg?v=1" alt="GitHub trophies" width="100%">
 </div>
-
-> ℹ️ These local cards ship with **placeholder numbers** (GitHub's API was rate‑limited from the build environment while generating this). Open `scripts/gen_stats.py`-style values — or just hand‑edit the `NUMBERS` / `LANGS` / `TROPHIES` data in `assets/stats.svg`, `langs.svg`, `trophies.svg` — with your real figures from your GitHub profile.
 
 ---
 
@@ -96,11 +87,11 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-1a0b2e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dilip7868)
-[![Email](https://img.shields.io/badge/Gmail-1a0b2e?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:dilip10122004@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a0b2e?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+[![Gmail](https://img.shields.io/badge/Gmail-1a0b2e?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:dilip10122004@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a0b2e?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/dilipkumar-t-b60268355)
 
 </div>
 
 <div align="center">
-<sub>Thanks for stopping by — feel free to explore my repos, open an issue, or just say hi 👋</sub>
+<sub>Thanks for stopping by — feel free to explore my repos, open an issue, or connect! 👋</sub>
 </div>
