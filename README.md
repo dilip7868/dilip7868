@@ -77,7 +77,11 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/dilip7868/dilip7868/output/github-snake.svg?v=1" alt="Contribution snake animation" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dilip7868/dilip7868/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dilip7868/dilip7868/output/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/dilip7868/dilip7868/output/github-snake-dark.svg" alt="GitHub Snake Animation" width="100%">
+</picture>
 </div>
 
 ---
